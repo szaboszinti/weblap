@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="reg.css">
+    
+</head>
+<body>
+       <header>
+        <h1>Jegyvásárlás</h1>
+        <p>Vásárolj jegyet könnyen és olcsón!</p>
+    </header>
+    <nav>
+        <a href="index.html">Események</a>
+        <a href="">Koncertek</a>
+        <a href="">Színházi előadások</a>
+        <a href="">Mozi előadások</a>
+        <a href="reg.html">Regisztráció</a>
+    </nav>
+
+    <h1 style="text-align: center;">Regisztráció</h1>
+    <form method="post" action="https://httpbin.org/post">
+        <label> E-mail cím:
+            <input type="email" name="email" maxlength="40" required>
+        </label>
+        <br>
+        <label>Név:
+            <input type="text" name="Name" maxlength="20" required>
+        </label>
+        <br>
+        <label>Felhasználó név:
+            <input type="text" name="Felhasználó" maxlength="20" required>
+        </label>
+        <br>
+        <label>Jelszó:
+            <input type="password" name="password" minlength="8" required>
+        </label>
+
+        
+        <div style="text-align: center; ">
+        <button type="reset">Törlés</button>
+        <button type="submit">Regisztrálás</button>
+        </div>
+        
+        
+    </form>
+
+</body>
+</html>
